@@ -244,6 +244,12 @@
       "password": "123456",
       "role": "chef",
       "id": 3
+    },
+    {
+      "email": "elizabetesousafabri@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "id": 4
     }
   ]
 }
