@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
   },
-  "author": "Sergio Sinuco <ssinuco@gmail.com>",
+  "author": "Elizabete Sousa Fabri",
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.0",

@@ -1,35 +1,26 @@
-# Burger Queen API Mock
+# Mock da API Burger Queen
 
-Usando las librerías [json-server](https://github.com/typicode/json-server) 
-y [json-server-auth](https://github.com/jeremyben/json-server-auth) 
-se crea un mock para 
-[Burger Queen API](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0)
+Utilizando as bibliotecas [json-server](https://github.com/typicode/json-server) e [json-server-auth](https://github.com/jeremyben/json-server-auth), é criado um mock para a [API Burger Queen](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0).
 
-## Ejecución
+## Execução
 
-1. Clona el repositorio
-2. Instala las dependencias
+1. Clone o repositório
+2. Instale as dependências
     ```bash
     npm install
     ```
-3. Ejecuta el mock
+3. Execute o mock
     ```bash
     npm start
     ```
-4. Ahora puedes acceder a los endpoints del API descritos en la 
-[documentación](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0) 
-usando como URL base [http://localhost:8080/](http://localhost:8080/).
+4. Agora você pode acessar os endpoints da API descritos na [documentação](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0) utilizando como URL base [http://localhost:8080/](http://localhost:8080/).
 
-    Tal como indica la documentación, los endpoints están protegidos 
-    por token de autenticación.
+    Conforme indicado na documentação, os endpoints estão protegidos por token de autenticação.
 
-    En el archivo [requests.http](./requests.http) encuentras 
-    algunas peticiones de prueba que puedes ejecutar directamente 
-    en VSCode usando la extensión 
-    [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+    No arquivo [requests.http](./requests.http), você encontrará algumas solicitações de teste que pode executar diretamente no VSCode usando a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
-## Información
+## Informações
 
-El mock _out-of-the-box_ provee información de 3 usuarias: admin@systers.xyz, waiter@systers.xyz y chef@systers.xyz con roles de admin, waiter y chef, respectivamente. La contraseña de las usuarias es _123456_
+O mock _out-of-the-box_ fornece informações de 3 usuárias: admin@systers.xyz, waiter@systers.xyz e chef@systers.xyz, com funções de admin, atendente e chef, respectivamente. A senha das usuárias é _123456_.
 
-También provee información de 2 órdenes y 20 productos.
+Também fornece informações de 2 pedidos e 20 produtos.

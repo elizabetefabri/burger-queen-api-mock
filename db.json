@@ -229,19 +229,19 @@
   "users": [
     {
       "email": "admin@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "123456",
       "role": "admin",
       "id": 1
     },
     {
       "email": "waiter@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "123456",
       "role": "waiter",
       "id": 2
     },
     {
       "email": "chef@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "123456",
       "role": "chef",
       "id": 3
     }

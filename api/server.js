@@ -17,4 +17,12 @@ app.use(rules);
 app.use(auth);
 app.use(router);
 
+const PORT = process.env.PORT || 8080;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`JSON Server running at http://localhost:${PORT}`);
+  });
+}
+
 module.exports = (req, res) => app(req, res);
